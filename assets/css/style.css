@@ -86,7 +86,10 @@ img {
 .search-bar a img:hover {
     transform: scale(1.08);
 }
-
+.search-bar{
+    position: relative;
+    right: 40px;
+}
 
 /* ----------------home-page------------- */
 .home-page {
@@ -102,12 +105,14 @@ img {
     justify-content: space-around;
     position: relative;
     align-items: center;
-    padding: 50px 0px 50px 0px;
+    padding: 70px 0px 100px 0px;
 }
-
+#home-page-btn{
+    margin-top: 60px;
+}
 .home-txt {
     position: relative;
-    left: 160px;
+    left: 125px;
 }
 
 .vanue a {
@@ -200,12 +205,14 @@ img {
     align-items: center;
     padding: 50px 0px 50px 0px;
 }
+
 .owl-carousel .owl-item img {
     width: unset;
     align-items: center;
     text-align: center;
     margin: 0 auto;
 }
+
 /* ----------------------section-2--------------------- */
 .section-2 {
     background: rgba(0, 11, 17, 1);
@@ -333,15 +340,32 @@ img {
 }
 
 .sec-4-card .card-1 {
-    border: 1px solid rgba(6, 166, 255, 1)
+    border: 1px solid rgba(6, 166, 255, 1);
+
+}
+.sec-4-card .card-1 h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+.sec-4-card .card-2 h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+.sec-4-card .card-3 h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
 }
 
 .sec-4-card .card-2 {
-    border: 1px solid rgba(255, 171, 36, 1)
+    border: 1px solid rgba(255, 171, 36, 1);
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .sec-4-card .card-3 {
-    border: 1px solid rgba(251, 76, 251, 1)
+    border: 1px solid rgba(251, 76, 251, 1);
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .sec-4-card img {
@@ -390,11 +414,9 @@ img {
 /* ------------------------section-5------------------------------- */
 .section-5 {
     background: rgba(0, 24, 38, 1);
-    padding: 80px 0px 80px 0px;
+    padding: 100px 0px 100px 0px;
     position: relative;
-
 }
-
 .sec-5 {
     display: flex;
     justify-content: center;
@@ -529,11 +551,15 @@ img {
     bottom: 75px;
     right: 192px;
 }
+.section-5-1{
+    font-weight: 900;
+}
 
 .wifi-2 {
     position: absolute;
-    top: 36px;
+    top: 30px;
     left: 592px;
+    height: 93px;
 }
 
 .wifi-3 {
@@ -852,6 +878,11 @@ img {
     margin-top: 30px;
     color: rgba(255, 255, 255, 1);
 }
+
+.sec-10-btn {
+    text-align: unset;
+}
+
 
 /* ------------------section-11---------------------------------- */
 
@@ -1428,6 +1459,10 @@ footer {
         max-width: 832px;
     }
 
+    .section-10-btn {
+        text-align: center;
+        margin: 0 auto;
+    }
 
     .section-12-txt {
         top: 240px;
@@ -2341,7 +2376,7 @@ footer {
     .section-2-txt h2 {
         font-size: 43px;
     }
-    
+
 
     /* --------section-3------------------ */
     .sec-3-txt h2 {
@@ -2700,7 +2735,7 @@ footer {
         line-height: 22px;
     }
 
-   
+
 
     .section-12-txt h2 {
         font-size: 26px;
@@ -2942,7 +2977,7 @@ footer {
         left: 50px;
     }
 
-  
+
 }
 
 @media (max-width: 418px) {
